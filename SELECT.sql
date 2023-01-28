@@ -21,5 +21,5 @@ WHERE name NOT LIKE ('% %');
 
 --название треков, которые содержат слово “my”
 SELECT name FROM music_track
-WHERE name LIKE ('%my%');
+WHERE string_to_array(lower(name), ' ') && ARRAY['my', 'мой']; 
 

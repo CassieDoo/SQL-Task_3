@@ -39,7 +39,7 @@ VALUES('Mack The Knife', '00:04:20', 1),
 	('Strongest', '00:06:54', 6),
 	('Macarena', '00:04:23', 8),
 	('Let me entertain you', '00:03:06', 1),
-	('Its my life', '00:03:46', 3),
+	('Мой дом', '00:03:46', 3),
 	('Andalouse', '00:03:02', 4);
 	
 INSERT INTO digest (name, release_year)
